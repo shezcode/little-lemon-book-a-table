@@ -10,7 +10,6 @@
 }
 
 .btn {
-  border-radius: 8px;
   background-color: #f4ce14;
   padding: 12px;
   margin: 10px;
@@ -22,4 +21,13 @@
 
 h2 {
   color: white;
+}
+
+p {
+  color: white;
+  width: 30%;
+}
+
+img {
+  border-radius: 25px;
 }

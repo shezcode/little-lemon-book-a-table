@@ -8,7 +8,7 @@ const Hero = () => {
       <div>
         <h1 className='title primary-yellow'>Little Lemon</h1>
         <h2 className='subtitle'>Chicago</h2>
-        <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
+        <p className='paragraph-text'>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
         <button className='btn'>Reserve a table</button>
       </div>
       <div>
