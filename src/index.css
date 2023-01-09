@@ -6,14 +6,50 @@
 
 .title {
   font-size: 64px;
-  font-family: "karla", sans-serif;
-  font-weight: bold;
+  font-family: "Markazi Text", sans-serif;
+  font-weight: medium;
+}
+
+.subtitle {
+  font-size: 40px;
+  font-family: "Markazi Text", sans-serif;
+  font-weight: regular;
 }
 
 .card-title {
   font-size: 18px;
   font-family: "karla", sans-serif;
   font-weight: bold;
+}
+
+.lead-text {
+  font-family: "karla", sans-serif;
+  font-size: 18px;
+  font-weight: medium;
+}
+
+.section-title {
+  font-family: "karla", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.specials {
+  font-family: "karla", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.paragraph-text {
+  font-family: "karla", sans-serif;
+  font-size: 16px;
+  font-weight: regular;
+}
+
+.highlight {
+  font-family: "karla", sans-serif;
+  font-size: 16px;
+  font-weight: medium;
 }
 
 .primary-green {
