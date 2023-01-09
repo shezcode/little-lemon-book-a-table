@@ -12,7 +12,7 @@ const Hero = () => {
         <button className='btn'>Reserve a table</button>
       </div>
       <div>
-        <img src={food} alt="A serving of our delicious food" height={200} width={150}/>
+        <img src={food} alt="A serving of our delicious food" className='img-1'/>
       </div>
 
     </div>
