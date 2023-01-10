@@ -1,14 +1,19 @@
 .specials-section {
   margin-bottom: 50px;
   background-color: green;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .spec-div {
   display: flex;
   flex-direction: row;
-  margin: 40px;
-  margin-top: 10vh;
-  justify-content: space-around;
+  margin: 30px;
+  margin-top: 5vh;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -32,7 +37,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 200px;
   height: 300px;
   background-color: #edefee;
@@ -43,7 +48,8 @@
 .card-div img {
   width: 100%;
   height: 100%;
-  border-radius: 16px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
   border: 1px solid #333333;
 }
 
@@ -52,4 +58,21 @@
   margin-top: 20px;
   height: 100%;
   width: 80%;
+}
+
+.order-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  background-color: #edefee;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.order-div img {
+  height: 20px;
+  border: none;
 }

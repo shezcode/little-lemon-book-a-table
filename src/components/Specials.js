@@ -17,8 +17,10 @@ const Specials = () => {
           <p className='lead-text orange'>$10.99</p>
         </div>
         <p className='paragraph-text dark'>A greek salad with feta cheese, olives, and tomatoes</p>
-        <p className='lead-text dark'>Order for delivery</p>
-        <img src={dishIcon} alt="order for delivery icon" />
+        <div className='order-div'>
+          <p className='paragraph-text dark'>Order for delivery</p>
+          <img src={dishIcon} alt="order for delivery icon" />
+        </div>
       </div>
     </div>
 
