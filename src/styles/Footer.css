@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   background-color: #495e57;
-  padding: 2em 8em;
+  padding: 4em;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -12,6 +12,10 @@
   font-family: "karla", sans-serif;
   font-size: 1.2em;
   font-weight: medium;
+}
+
+.lil a:hover {
+  color: #f4ce14;
 }
 
 .lil:nth-child(2) {
