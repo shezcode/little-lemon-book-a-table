@@ -27,6 +27,12 @@
   cursor: pointer;
 }
 
+.spec-btn:hover {
+  background-color: #f4be12;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
 .price-div {
   display: flex;
   flex-direction: row;
@@ -45,6 +51,8 @@
   background-color: #edefee;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .card-div img {

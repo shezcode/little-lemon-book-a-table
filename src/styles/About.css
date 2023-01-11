@@ -1,0 +1,29 @@
+.about-container {
+  padding: 2em;
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc-pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 70%;
+  margin: 2em 0;
+  gap: 3em;
+}
+
+.about-text {
+  max-width: 50%;
+}
+
+.about-img {
+  aspect-ratio: 1/1;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 12%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
