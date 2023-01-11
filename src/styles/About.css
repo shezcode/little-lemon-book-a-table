@@ -18,12 +18,12 @@
 
 .about-text {
   max-width: 50%;
+  z-index: 99;
 }
 
 .about-img {
-  aspect-ratio: 1/1;
   width: 20vh;
   height: 20vh;
-  border-radius: 12%;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  box-shadow: rgb(38, 57, 77) 0px 15px 40px -10px;
 }
