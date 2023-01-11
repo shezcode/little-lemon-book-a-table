@@ -19,7 +19,7 @@ const Specials = () => {
           alt='A greek salad'
           title='Greek Salad'
           price='$10.99'
-          description='A greek salad with feta cheese, olives, and tomatoes.'/>
+          description='The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.'/>
         <Card
           imgSrc={Bruchetta}
           alt='Bruschetta'
