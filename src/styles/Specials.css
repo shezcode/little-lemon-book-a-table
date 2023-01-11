@@ -10,7 +10,7 @@
 .spec-div {
   display: flex;
   flex-direction: row;
-  margin: 3em;
+  margin: 2em;
   margin-top: 10vh;
   justify-content: space-around;
   align-items: center;
@@ -83,10 +83,11 @@
 .cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  max-width: 40vw;
-  width: 100%;
-  gap: 1.5em;
-  margin: 1em;
+
+  margin: 2em;
+  padding: 2em;
+  min-width: 60%;
+  gap: 1em;
 }

@@ -1,0 +1,49 @@
+.t-container {
+  background-color: #edefee;
+  padding: 2em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
+  max-width: 25vw;
+  height: 200px;
+  background-color: white;
+}
+
+.pic-review {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  min-width: 20%;
+  max-width: 70%;
+  margin: 0.5em;
+}
+
+.avatar {
+  border-radius: 20%;
+  width: 100px;
+  height: 100px;
+}
+
+.rev-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  height: 100%;
+}
