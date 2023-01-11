@@ -1,7 +1,10 @@
 import React from 'react'
 import '../styles/Specials.css'
 import Salad from '../assets/greek-salad.jpg'
-import dishIcon from '../assets/Dish-icon.svg'
+import Lemon from '../assets/lemon-dessert.jpg'
+import Bruchetta from '../assets/bruchetta.jpg'
+
+import Card from './Card'
 
 const Specials = () => {
   return (
@@ -10,18 +13,27 @@ const Specials = () => {
         <h1 className='section-title'>Specials</h1>
         <button className='spec-btn lead-text'>Online Menu</button>
       </div>
-      <div className='card-div'>
-        <img src={Salad} alt="A greek salad" width={200} height={250}/>
-        <div className='price-div'>
-          <h2 className='card-title dark'>Greek Salad</h2>
-          <p className='lead-text orange'>$10.99</p>
-        </div>
-        <p className='paragraph-text dark'>A greek salad with feta cheese, olives, and tomatoes</p>
-        <div className='order-div'>
-          <p className='paragraph-text dark'>Order for delivery</p>
-          <img src={dishIcon} alt="order for delivery icon" />
-        </div>
+      <div className='cards'>
+        <Card
+          imgSrc={Salad}
+          alt='A greek salad'
+          title='Greek Salad'
+          price='$10.99'
+          description='A greek salad with feta cheese, olives, and tomatoes.'/>
+        <Card
+          imgSrc={Bruchetta}
+          alt='Bruschetta'
+          title='Bruschetta'
+          price='$5.99'
+          description='Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.' />
+        <Card
+          imgSrc={Lemon}
+          alt='A lemon dessert'
+          title='Lemon Dessert'
+          price='$5.99'
+          description="This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined."/>
       </div>
+
     </div>
 
   )
