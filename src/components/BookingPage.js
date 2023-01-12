@@ -10,8 +10,8 @@ const BookingPage = () => {
 
   const updateTimes = (state, action) => {
     switch (action.type) {
-      case 'REMOVE_TIME':
-        return [...state, action.payload]
+      case 'FETCH_TIMES':
+        return action.payload
       default:
         return state
     }

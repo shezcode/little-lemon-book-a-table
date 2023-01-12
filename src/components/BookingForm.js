@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import convertDate from '../utils'
+import {fetchAPI, submitAPI} from '../utils'
 
 const BookingForm = (props) => {
   const [date, setDate] = useState('')
@@ -10,7 +11,7 @@ const BookingForm = (props) => {
 
   const changeDate = (event) => {
     setDate(event.target.value)
-    props.dispatch({type: 'REMOVE_TIME', payload: '17:00'})
+    props.dispatch({type: 'FETCH_TIMES', payload: fetchAPI(event.target.value)})
   }
 
   const changeTime = (event) => {
