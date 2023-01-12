@@ -10,6 +10,7 @@ const BookingForm = (props) => {
 
   const changeDate = (event) => {
     setDate(event.target.value)
+    props.dispatch({type: 'REMOVE_TIME', payload: '17:00'})
   }
 
   const changeTime = (event) => {
@@ -49,7 +50,7 @@ const BookingForm = (props) => {
       {date && guests > 1 && <div className='confirm-text paragraph-text'>
       <p>Currently booking a table for {guests} people, at {time} on the {convertDate(date)} for a {occasion}</p>
       </div>}
-      {date && guests == 1 && <div className='confirm-text paragraph-text'>
+      {date && guests === 1 && <div className='confirm-text paragraph-text'>
       <p>Currently booking a table for {guests} person, at {time} on the {convertDate(date)} for a {occasion}</p>
       </div>}
       {!date && <div className='confirm-text paragraph-text'>
