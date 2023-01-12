@@ -5,51 +5,51 @@
 }
 
 .title {
-  font-size: 64px;
+  font-size: 4em;
   font-family: "Markazi Text", sans-serif;
   font-weight: medium;
   line-height: 0.8;
 }
 
 .subtitle {
-  font-size: 40px;
+  font-size: 2.5em;
   font-family: "Markazi Text", sans-serif;
   font-weight: regular;
 }
 
 .card-title {
-  font-size: 18px;
+  font-size: 1.2em;
   font-family: "karla", sans-serif;
   font-weight: bold;
 }
 
 .lead-text {
   font-family: "karla", sans-serif;
-  font-size: 18px;
+  font-size: 1.2em;
   font-weight: medium;
 }
 
 .section-title {
   font-family: "karla", sans-serif;
-  font-size: 20px;
+  font-size: 1.4em;
   font-weight: bold;
 }
 
 .specials {
   font-family: "karla", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: bold;
 }
 
 .paragraph-text {
   font-family: "karla", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: regular;
 }
 
 .highlight {
   font-family: "karla", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: medium;
 }
 

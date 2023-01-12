@@ -10,7 +10,8 @@
 .desc-pics {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
   max-width: 70%;
   margin: 2em 0;
   gap: 3em;
