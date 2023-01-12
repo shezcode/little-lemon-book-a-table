@@ -13,10 +13,10 @@
 
 input,
 select,
-button {
+.form-btn {
   max-width: 50%;
   padding: 1em;
-  margin: 1em 0;
+  margin: 1em;
   border: none;
   border-radius: 5px;
   font-size: 1.2em;
@@ -32,4 +32,14 @@ button {
   text-align: center;
   color: white;
   padding: 3em 6em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 1em;
+  margin: 2em;
+}
+
+button {
+}
+
+.book-container {
+  width: 100%;
 }

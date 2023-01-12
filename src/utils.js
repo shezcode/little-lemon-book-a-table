@@ -5,14 +5,25 @@
     // change month from number to name
     const nameMonth = new Date(year, month - 1).toLocaleString('en-US', { month: 'long' })
     const day = dateArray[2]
-    switch(day) {
-      case '01' || '21' || '31':
-        return `${day}st of ${nameMonth}, ${year}`
-      case '02':
-        return `${day}nd of ${nameMonth}, ${year}`
-      case '03':
-        return `${day}rd of ${nameMonth}, ${year}`
+    // change day from 01 to 1
+    const dayNumber = parseInt(day)
+    // change day from 1 to 1st
+
+    switch(dayNumber) {
+      // 1st, 21st, 31st
+      case 1:
+      case 21:
+      case 31:
+        return `${dayNumber}st of ${nameMonth}, ${year}`
+      // 2nd, 22nd
+      case 2:
+      case 22:
+        return `${dayNumber}nd of ${nameMonth}, ${year}`
+      // 3rd, 23rd
+      case 3:
+      case 23:
+        return `${dayNumber}rd of ${nameMonth}, ${year}`
       default:
-        return `${day}th of ${nameMonth}, ${year}`
+        return `${dayNumber}th of ${nameMonth}, ${year}`
     }
   }
