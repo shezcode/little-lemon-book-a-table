@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import convertDate from '../utils'
 import {fetchAPI, submitAPI} from '../utils'
+import ConfirmedBooking from './ConfirmedBooking'
 
 const BookingForm = (props) => {
   const [date, setDate] = useState('')
