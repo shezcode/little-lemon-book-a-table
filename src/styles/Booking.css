@@ -25,3 +25,11 @@ button {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 17px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
+.confirm-text {
+  background-color: #495e57;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 3em 6em;
+}
