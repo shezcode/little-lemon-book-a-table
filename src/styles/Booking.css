@@ -1,0 +1,27 @@
+.booking-title {
+  background-color: #495e57;
+  padding: 2em 6em;
+}
+
+.book-form {
+  padding: 4em 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input,
+select,
+button {
+  max-width: 50%;
+  padding: 1em;
+  margin: 1em 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #f4ce14;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 17px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}

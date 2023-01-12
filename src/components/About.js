@@ -1,5 +1,4 @@
 import React from 'react'
-import mario from '../assets/mario.jpg'
 import adrian from '../assets/adrian.jpg'
 import '../styles/About.css'
 
