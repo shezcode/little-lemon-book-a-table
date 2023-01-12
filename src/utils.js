@@ -36,6 +36,7 @@
 
 export const fetchAPI = function(date) {
     let result = [];
+
     for(let i = 17; i < 23; i++) {
         let random = Math.random();
         if(random < 0.5) {
@@ -45,11 +46,12 @@ export const fetchAPI = function(date) {
             result.push(i + ':30');
         }
     }
+
     return result;
 };
 
 //also what the fuck is this even supposed to be doing ???
 //i'm assuming it's supposed to be sending the data to the api but it's not doing that either
-export const submitAPI = function(formData) {
+export const submitAPI = (formData) => {
     return true;
 };

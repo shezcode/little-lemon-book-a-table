@@ -26,8 +26,19 @@ const BookingForm = (props) => {
     setOccasion(event.target.value)
   }
 
+  const handleSubmit = (event) => {
+    event.preventDefault()
+    const formData = {
+      date: date,
+      time: time,
+      guests: guests,
+      occasion: occasion
+    }
+    window.location.href = '/confirm'
+  }
+
   return (
-    <form method='get' action='/' className='book-form'>
+    <form className='book-form' onSubmit={handleSubmit}>
       <label htmlFor="date" className='subtitle primary-green'>Choose date</label>
       <input type="date" id='date' required
         value={date} onChange={changeDate}
